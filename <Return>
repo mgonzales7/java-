@@ -1,0 +1,13 @@
+import javax.swing*
+public class MyFrame extend JFrame {}
+public MyFrame()
+{
+setLayout( new FlowLayout(FlowLayout.LEFT,10,20);
+add (new Jlabel("First Name"));
+add (JTextField(8));
+}
+public static void main 
+{
+MyFrame frame = new MyFrame();
+}
+
